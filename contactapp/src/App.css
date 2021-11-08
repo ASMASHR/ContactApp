@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+  border: 5px rgb(149, 153, 149) solid;
+  border-radius: 20px;
+  height: 700px;
+  width: 700px;
+  margin: 50px;
+  padding: 20px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background: #bada55;
+  overflow: hidden;
+  height: 100%;
+}
+.contactButton {
+  outline: none;
+  margin: 5px;
+  text-align: center;
+  background-color: rgb(64, 49, 119);
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  line-height: 160px;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 0 1px 1px #fff;
+}
+.AddButton {
+  outline: none;
+  margin: 5px;
+  text-align: center;
+  background-color: rgb(64, 49, 119);
+  color: white;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  line-height: 160px;
+  font-weight: normal;
+  text-align: center;
+  text-shadow: 0 1px 1px #fff;
+}

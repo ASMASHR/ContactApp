@@ -1,0 +1,142 @@
+/* ContactCard css */
+.contactCardDiv {
+  /* height: 200px; */
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 2px solid;
+}
+.infoDiv {
+  display: flex;
+  flex-direction: row;
+  /* padding: 3px; */
+}
+.infoDiv h4 {
+  font-family: "Roboto Mono", monospace;
+  font-size: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+.infoDiv p {
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  font-style: italic;
+}
+.CardButton {
+  /* height: 369px;*/
+  width: 100px;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+  background: grey;
+  margin-bottom: 7px;
+  color: rgb(253, 249, 249);
+  font-size: 15px;
+  font-weight: bold;
+}
+/* EditUser css */
+.Edit-Add-Div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-items: center;
+  width: 60%;
+  height: 200px;
+  padding-left: 70px;
+}
+.ColumnDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: center;
+}
+.ColumnDiv label {
+  font-family: "Roboto Mono", monospace;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+}
+.ColumnDiv input {
+  background-color: transparent;
+  border: 2px solid;
+  border-radius: 5px;
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+}
+.ButtonChange {
+  border-radius: 10px;
+  border: 2px solid;
+  box-shadow: 0 70px 63px -60px #000000;
+  color: #555;
+  padding: 1em 1em;
+  text-decoration: palevioletred;
+  text-transform: uppercase;
+}
+.ButtonChange:hover {
+  background-color: #252c0c;
+  color: rgb(247, 241, 241);
+}
+/* AddUser css */
+/* 
+.border
+ 
+
+  &:hover
+    border: 1px solid white
+
+.card
+  height: 379px
+  width: 300px
+    display: flex
+  justify-content: center
+  align-items: center
+  position: relative
+
+.card0
+  background: url('https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg') center center no-repeat
+  background-size: 300px
+
+.card1
+  background: url('https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg') center center no-repeat
+  background-size: 300px
+
+
+.card2
+  background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') center center no-repeat
+  background-size: 300px
+
+  &:hover
+    background: url('https://i.pinimg.com/originals/ee/85/08/ee850842e68cfcf6e3943c048f45c6d1.jpg') left center no-repeat
+    background-size: 600px
+
+    h2
+      opacity: 1
+
+    .fa
+      opacity: 1
+
+h2
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif
+  color: white
+  margin: 20px
+  opacity: 0
+  transition: opacity 1s
+
+.fa
+  opacity: 0
+  transition: opacity 1s
+
+.icons
+  position: absolute
+  fill: #fff
+  color: #fff
+  height: 130px
+  top: 226px
+  width: 50px
+  display: flex
+  flex-direction: column
+  align-items: center
+  justify-content: space-around */
